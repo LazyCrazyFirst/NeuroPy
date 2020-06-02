@@ -1,0 +1,1 @@
+SEND_ADDRESS = "neuropy@mail.ru"

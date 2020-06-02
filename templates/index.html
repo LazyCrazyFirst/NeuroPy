@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"
+            charset="UTF-8"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Sorts+Mill+Goudy" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!--Owl Carousel CSS-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.default.min.css') }}">
+
+    <!--Fancy box CSS-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/jquery.fancybox.min.css') }}">
+
+    <!--Animate.css-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+
+    <!--Slick CSS-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='slick/slick.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='slick/slick-theme.css') }}">
+
+    <!--Main CSS-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <!--Media Query CSS-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/query.css') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/microfon/animate.css') }}">
+
+    <title>NeuroPy</title>
+</head>
+
+
+<body id="home" data-spy="scroll" data-target="#main-nav">
+
+<!--css Preloader-->
+<div id="preloader">
+    <div class="spinner"></div>
+</div>
+
+
+<div class="container-fluid">
+    <div id="owl-slider1" class="owl-carousel owl-item">
+        <div style="background-image: url({{ url_for('static', filename='img/image/bg1.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/image/5.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/image/bak2.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/image/bak6.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/image/bak7.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/image/bak8.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/image/bak10.jpg') }})"></div>
+    </div>
+
+    <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+
+            <img src="{{ url_for('static', filename='img/image/main_logo2.png') }}" height="50px" alt="NeuroPy Logo">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link" id="home_drag">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link" id="about_drag">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#advantages" class="nav-link" id="advantages_drag">Advantages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#team" class="nav-link" id="team_drag">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#examples" class="nav-link" id="examples_drag">Examples</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#abilities" class="nav-link" id="abilities_drag">Аbilities</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link" id="contact_drag">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="hero-text-area">
+        <h1>NeuroPy - it is large source for creating neuronet</h1>
+        <p>You can find a lot of different information about neuronets,
+            about asembly part of neuronets and about creating neuronets.
+            <br>Start building your first neural network</p>
+        <a href="#about" class="btn-ghost">Try now</a>
+        <!--
+                <button onclick="toggler()">слушать</button>
+                <p>Вы сказали:</p>
+                <p class="input"></p>
+                <p>Анечка:</p>
+                <p id="data" class="text">Спросите меня о чём-нибудь</p> -->
+    </div>
+
+
+</div>
+<div onclick="toggler()" class="microfon__block"
+     style="position: fixed; right: 0; top: 600px; width: 40px; height: 40px; border-radius: 100px; background: rgba(255, 255, 255, 0.5); transition: 0.5s;z-index: 100; ">
+    <img src="../static/img/microfon.png" alt="" style="width: 30px;height: 30px; margin-top: 5px; margin-left: 5px;">
+</div>
+
+<div class="show" id="2">
+    <img onclick="toggler()" id="krestik" class="krest" src="../static/img/krest.png" style="width: 10px;height: 10px;"
+         alt="">
+    <p class="input prokrutka">
+    </p>
+    <p class="text prokrutka" id="data">
+        Анечка: Спросите меня о чём-нибудь
+    </p>
+
+
+</div>
+
+<!--About Section-->
+<section id="about" class="py-5" type="text">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 align-self-center text-center mb-5">
+                <img src="{{ url_for('static', filename='img/image/logo1.png') }}" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2 style="color: aliceblue;">Our Story</h2>
+                <p style="color: aliceblue;">There are many different sources for creating neural networks, but there is
+                    no specific source on the Internet,
+                    so we decided to simplify the task for users and created one web resource for learning of creating
+                    neural
+                    networks.</p>
+                <a href="#expertise" class="btn-ghost">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Video Section-->
+<section id="video">
+    <div class="text-center text-white">
+        <iframe class="video__frame" height="585" src="https://www.youtube.com/embed/RJCIYBAAiEI" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+<!--Expertise Section-->
+<section id="advantages" class="py-chka">
+    <div class="container">
+        <div class="row mb-3">
+            <div class="col text-center">
+                <h2 class="mb-3 title_color">Our Advantages</h2>
+                <p class="text-muted mb-5"></p>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-md-4 text-center mb-2">
+                <img src="{{ url_for('static', filename='img/icon1.png') }}" alt="" class="mb-4">
+                <h5 class="mb-3 title_color">Web Design & Development</h5>
+                <p class="text-muted">
+                    Web design has been done in a modern and
+                    comfortable style and also has elements of minimalism.</p>
+            </div>
+            <div class="col-md-4 text-center mb-2">
+                <img src="{{ url_for('static', filename='img/icon2.png') }}" alt="" class="mb-4">
+                <h5 class="mb-3 title_color">Brand Identity</h5>
+                <p class="text-muted">The site was designed in a corporate style, starting with a color composition and
+                    ending with a logo.</p>
+            </div>
+            <div class="col-md-4 text-center mb-2">
+                <img src="{{ url_for('static', filename='img/icon3.png') }}" alt="" class="mb-4">
+                <h5 class="mb-3 title_color">Adaptation</h5>
+                <p class="text-muted">
+                    The site provides an adaptive design for the resolution of various device screens, for greater
+                    convenience.</p>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-4 text-center mb-2">
+                <img src="{{ url_for('static', filename='img/icon4.png') }}" alt="" class="mb-4">
+                <h5 class="mb-3 title_color">SEO</h5>
+                <p class="text-muted">Work was done to develop the site, change its environment, analyze user behavior,
+                    improve position on targeted requests.</p>
+            </div>
+            <div class="col-md-4 text-center mb-2">
+                <img src="{{ url_for('static', filename='img/icon5.png') }}" alt="" class="mb-4">
+                <h5 class="mb-3 title_color">Voice assistant</h5>
+                <p class="text-muted">
+                    The site has a voice assistant that will help you understand how to work with the site, as well as
+                    help you find the necessary sections.</p>
+            </div>
+            <div class="col-md-4 text-center mb-2">
+                <img src="{{ url_for('static', filename='img/icon6.png') }}" alt="" class="mb-4">
+                <h5 class="mb-3 title_color">Made With Love</h5>
+                <p class="text-muted">
+                    We have done our best to make your stay on the site as comfortable, effective and relaxing as
+                    possible.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Team Section-->
+<section id="team" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center text-white">
+                <h2 class="mb-3">Meet Our Team</h2>
+                <p class="mb-5">our team made every effort to create a good software product</p>
+            </div>
+        </div>
+        <div id="owl-slider2" class="owl-carousel owl-theme wow bounceInUp">
+            <div class="item">
+                <div class="card text-center">
+                    <img src="{{ url_for('static', filename='img/team/sanya.jpg') }}" alt="Person1"
+                         class="img-fluid card-img-top">
+                    <div class="card-body">
+                        <h5>Alex Abrams</h5>
+                        <p>Back-end Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card text-center">
+                    <img src="{{ url_for('static', filename='img/team/victor.jpg') }}" alt="Person2"
+                         class="img-fluid card-img-top">
+                    <div class="card-body">
+                        <h5>Victor Yeustsihneyeu</h5>
+                        <p>Front-end Developer</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <p class="text-white text-center my-4">become a part of our team</p>
+        <div class="text-center">
+            <a href="#contact" class="btn-ghost">Join Us</a>
+        </div>
+    </div>
+</section>
+
+<!--Our Works Section-->
+<section id="examples" class="py-5 pudding">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h2 class="mb-3 otstup64">
+                    Examples of neural networks</h2>
+            </div>
+        </div>
+        <div class="row mb-4 wow bounceInDown">
+            <div class="col-md-3">
+                <a data-fancybox="gallery" href="{{ url_for('static', filename='img/big_project1.jpg') }}"><img
+                        src="{{ url_for('static', filename='img/project1.jpg') }}" class="img-fluid mb-2"></a>
+            </div>
+            <div class="col-md-3">
+                <a data-fancybox="gallery" href="{{ url_for('static', filename='img/big_project2.jpg') }}"><img
+                        src="{{ url_for('static', filename='img/project2.jpg') }}" class="img-fluid mb-2"></a>
+            </div>
+            <div class="col-md-3">
+                <a data-fancybox="gallery" href="{{ url_for('static', filename='img/big_project3.jpg') }}"><img
+                        src="{{ url_for('static', filename='img/project3.jpg') }}" class="img-fluid mb-2"></a>
+            </div>
+            <div class="col-md-3">
+                <a data-fancybox="gallery" href="{{ url_for('static', filename='img/big_project4.jpg') }}"><img
+                        src="{{ url_for('static', filename='img/project4.jpg') }}" class="img-fluid mb-2"></a>
+            </div>
+        </div>
+        <div class="row mb-4 wow bounceInDown">
+            <div class="col-md-3">
+                <a data-fancybox="gallery" href="{{ url_for('static', filename='img/big_project5.jpg') }}"><img
+                        src="{{ url_for('static', filename='img/project5.jpg') }}" class="img-fluid mb-2"></a>
+            </div>
+            <div class="col-md-3">
+                <a data-fancybox="gallery" href="{{ url_for('static', filename='img/big_project6.jpg') }}"><img
+                        src="{{ url_for('static', filename='img/project6.jpg') }}" class="img-fluid mb-2"></a>
+            </div>
+            <div class="col-md-3">
+                <a data-fancybox="gallery" href="{{ url_for('static', filename='img/big_project7.jpg') }}"><img
+                        src="{{ url_for('static', filename='img/project7.jpg') }}" class="img-fluid mb-2"></a>
+            </div>
+            <div class="col-md-3">
+                <a data-fancybox="gallery" href="{{ url_for('static', filename='img/big_project8.jpg') }}"><img
+                        src="{{ url_for('static', filename='img/project8.jpg') }}" class="img-fluid mb-2"></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col text-center">
+                <a href="#" class="btn-ghost text-uppercase">Load More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Testimonial Setion-->
+<section id="abilities" class="py-5">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col text-center text-white">
+                <h4 class="display-1" style="font-family: 'Sorts Mill Goudy';font-size: 2em;">You can find find
+                    information about speak assistant here</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-white text-center">
+                <div class="testimonialSlider center">
+                    <div class="person1">
+                        <p class="lead mb-5" id="lox">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
+                            illo eos
+                            aliquid, maxime quod rem officiis dolor totam ipsam tenetur maiores repellendus quaerat.
+                            Amet enim ratione cumque numquam, debitis sunt similique alias sit dignissimos tempora iusto
+                            cupiditate culpa quos optio.</p>
+                        <h5>Lendl Simmons Lance</h5>
+                        <p class="text-muted">CEO, FirstIT</p>
+                        <img src="{{ url_for('static', filename='img/testimonial_person1.jpg') }}" alt="Mike Stewart"
+                             class="rounded-circle mb-5">
+
+                    </div>
+                    <div class="person2">
+                        <p class="lead mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint illo eos
+                            aliquid, maxime quod rem officiis dolor totam ipsam tenetur maiores repellendus quaerat.
+                            Amet enim ratione cumque numquam, debitis sunt similique alias sit dignissimos tempora iusto
+                            cupiditate culpa quos optio.</p>
+                        <h5>Sarah Lance</h5>
+                        <p class="text-muted">Graphic Designer, Graphics Service</p>
+                        <img src="{{ url_for('static', filename='img/testimonial_person2.jpg') }}" alt="Mike Stewart"
+                             class="rounded-circle mb-5">
+                    </div>
+                    <div class="person3">
+                        <p class="lead mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint illo eos
+                            aliquid, maxime quod rem officiis dolor totam ipsam tenetur maiores repellendus quaerat.
+                            Amet enim ratione cumque numquam, debitis sunt similique alias sit dignissimos tempora iusto
+                            cupiditate culpa quos optio.</p>
+                        <h5>West Allen</h5>
+                        <p class="text-muted">Web Developer, Creative IT Solutions</p>
+                        <img src="{{ url_for('static', filename='img/testimonial_person3.jpg') }}" alt="Mike Stewart"
+                             class="rounded-circle mb-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Contact-->
+<section id="contact" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 pr-3 mb-5">
+                <h3 class="mb-4">Let's Discuss Your Project</h3>
+                <form class="mb-4">
+                    <div style="display: flex">
+                        <input style="display: block;" type="text" class="form-control mb-2 name_value"
+                               placeholder="Your Name" required>
+                        <span class="name_error" style="color: #959ea5;"></span>
+                    </div>
+                    <div style="display: flex">
+                        <input style="display: block;" type="text" class="form-control mb-2 mail_value email"
+                               placeholder="Your Email" required>
+                        <span class="mail_error" style="color: #959ea5;"></span>
+                    </div>
+                    <div style="display: flex">
+                        <input type="text" class="form-control mb-2 subject_value" placeholder="Subject">
+                        <span class="subject_error" style="color: #959ea5;"></span>
+                    </div>
+                    <div style="display: flex">
+                    <textarea rows="9" class="form-control message_value" placeholder="Your Message"
+                              required></textarea>
+                        <span class="message_error" style="color: #959ea5;"></span>
+                    </div>
+                </form>
+                <a href="#4" class="btn-ghost send_mail_button">Send Message</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Main Footer-->
+<footer id="main-footer" class="text-white">
+    <div class="container otstup">
+        <div class="row mb-5">
+            <div class="col-md-4">
+                <img src="{{ url_for('static', filename='img/image/main_logo2.png') }}" style="height: 50px"
+                     alt="Tajam Logo" class="mb-4">
+                <p>Web resource <br>for creating neural network</p>
+            </div>
+            <div class="col-md-4 pt-3">
+                <h5 class="text-uppercase">Our Studio</h5>
+                <div class="media mb-3">
+                    <i class="fas fa-map-marker-alt mr-3 pt-1"></i>
+                    <div class="media-body">
+                        Belarus, Grodno, Gorky Street 86, 230000-230030, 231700
+                    </div>
+                </div>
+                <div class="media mb-3">
+                    <i class="fas fa-mobile-alt mr-3 pt-1"></i>
+                    <div class="media-body">
+                        +375 (33) 674-15-70<br>
+                        +375 (29) 546-58-56
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pt-3">
+                <h5 class="text-uppercase">Stay in Touch</h5>
+                <i class="fab fa-facebook-square fa-2x mr-4 mb-3"></i>
+                <i class="fab fa-twitter-square fa-2x mr-4 mb-3"></i>
+                <i class="fab fa-dribbble-square fa-2x mr-4 mb-3"></i>
+                <i class="fab fa-instagram fa-2x mr-4 mb-3"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <ul>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="col-md-6 mb-3">
+                <p class="copyright">&copy; 2020 NeuroPy. All rights reserved</p>
+            </div>
+        </div>
+    </div>
+
+
+</footer>
+
+
+<!--jQuery Full Version, Popper.js, Bootstrap.js-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+<!--Owl Carousel js-->
+<script src="{{ url_for('static', filename='js/owl.carousel.min.js') }}"></script>
+
+<!--Fancybox-->
+<script src="{{ url_for('static', filename='js/jquery.fancybox.min.js') }}"></script>
+
+<!--WOW.js-->
+<script src="{{ url_for('static', filename='js/wow.min.js') }}"></script>
+
+<!--Slick js-->
+<script src="{{ url_for('static', filename='slick/slick.min.js') }}"></script>
+
+<!--Main js-->
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+<script src="{{ url_for('static', filename='js/speak.js') }}"></script>
+
+<script>
+    var source = new EventSource('/');
+    source.addEventListener('message', function (e) {
+        // Пришли какие-то данные
+        console.log(e.data);
+        $("#data").text("Анечка: " + e.data);
+    }, false);
+</script>
+
+<script src="{{ url_for('static', filename='js/send_mail.js') }}"></script>
+
+<script src="../static/js/microfon.js"></script>
+</body>
+</html>

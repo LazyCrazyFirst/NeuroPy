@@ -1,0 +1,63 @@
+ctime
+now = datetime.datetime.now()
+print("Сейчас " + str(now.hour) + ":" + str(now.minute))
+;
+radio
+print("радио")
+;
+stupid1
+print("Я не знаю шуток")
+;
+hello
+print("Привет, рада тебя видеть")
+;
+bautiful
+print("Я покрасивее, но ты тоже ничё")
+;
+how_are_you
+print("Нормально, но могло быть и лучше")
+;
+pento
+print("Готово")
+;
+temperature
+owm = pyowm.OWM('6659644c0f474e2bc590e7b289606658')
+city = 'Гродно'
+observation = owm.weather_at_place(city)
+w = observation.get_weather()
+temp = w.get_temperature('celsius')
+print('В городе ' + city + ' сейчас ' + str(temp['temp']) + ' градусов по цельсию')
+;
+ukr
+print('героям слава')
+;
+bel
+print('Страна для жизни')
+;
+prezid
+print('ЛууууууууКааааааааШееееееенКооооооо')
+;
+eat
+print('В столовой гродненского государственного колледжа техники технологий и дизайна, на пути к совершенству')
+;
+home_drag
+print('Дом')
+;
+about_drag
+print('Информация')
+;
+advantages_drag
+print('Преимущества')
+;
+team_drag
+print('Команда')
+;
+abilities_drag
+print('Способности')
+;
+contact_drag
+print('Контакты')
+;
+stop
+print('Молчу')
+;

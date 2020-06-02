@@ -1,0 +1,22 @@
+* { font: 14px sans-serif; }
+html, body { margin: 0; padding: 0; }
+
+.custom-textarea {
+  min-width: 40ch; 
+  min-height: 7em; 
+  height: 50%; 
+  padding: 0.1em 0.3ch; 
+  margin: 0.5em 0; 
+  overflow: auto;
+  resize: none; 
+  border: 1px solid #ccc; 
+}
+.custom-textarea,
+.custom-textarea span {
+  font-family: monospace; 
+}
+
+.str  { color: #e94; }
+.optr { color: #47d; font-weight: 500; }
+.cnst { color: #4a4; }
+.brcs { color: #d44; }

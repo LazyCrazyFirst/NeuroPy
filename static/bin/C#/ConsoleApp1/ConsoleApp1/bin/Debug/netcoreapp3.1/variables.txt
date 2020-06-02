@@ -1,0 +1,3 @@
+var1 Привет
+var2 18
+var3 FUCK YOU

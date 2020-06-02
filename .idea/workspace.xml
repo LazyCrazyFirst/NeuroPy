@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7286a750-be0b-4ee7-9e94-d141ada9f866" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ajRZY1yzYW2zN8W5dSewhIYwPi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sanek\Desktop\Flask\templates\css" />
+      <recent name="C:\Users\sanek\Desktop\Flask\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.NeuroPy">
+    <configuration name="NeuroPy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLASK_APP" value="NeuroPy.py" />
+        <env name="FLASK_DEBUG" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="flask" />
+      <option name="PARAMETERS" value="run" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="detection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/python/Оп/Лица" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/python/Оп/Лица/detection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="send_email" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/python/Text/send_email" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/python/Text/send_email/send_email.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../real_time" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../real_time/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="voice_assistant2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static/bin/voice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/static/bin/voice/voice_assistant2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.NeuroPy" />
+      <item itemvalue="Python.voice_assistant2" />
+      <item itemvalue="Python.detection" />
+      <item itemvalue="Python.send_email" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.NeuroPy" />
+        <item itemvalue="Python.send_email" />
+        <item itemvalue="Python.detection" />
+        <item itemvalue="Python.voice_assistant2" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7286a750-be0b-4ee7-9e94-d141ada9f866" name="Default Changelist" comment="" />
+      <created>1587247072716</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587247072716</updated>
+      <workItem from="1587247074258" duration="1532000" />
+      <workItem from="1587323081321" duration="9200000" />
+      <workItem from="1587362835585" duration="346000" />
+      <workItem from="1587408059539" duration="3670000" />
+      <workItem from="1587452878256" duration="2535000" />
+      <workItem from="1587463886199" duration="1361000" />
+      <workItem from="1587716951175" duration="1030000" />
+      <workItem from="1588513570900" duration="2366000" />
+      <workItem from="1589283007826" duration="309000" />
+      <workItem from="1589317331056" duration="18000" />
+      <workItem from="1589317496404" duration="245000" />
+      <workItem from="1589732252967" duration="50000" />
+      <workItem from="1589745985831" duration="4942000" />
+      <workItem from="1589782971905" duration="15415000" />
+      <workItem from="1589800379097" duration="7064000" />
+      <workItem from="1589835775615" duration="3500000" />
+      <workItem from="1589896313540" duration="420000" />
+      <workItem from="1589896984346" duration="2228000" />
+      <workItem from="1589905321180" duration="567000" />
+      <workItem from="1589907011733" duration="666000" />
+      <workItem from="1590083604245" duration="3933000" />
+      <workItem from="1590127504290" duration="12031000" />
+      <workItem from="1590142266695" duration="2225000" />
+      <workItem from="1590148346818" duration="626000" />
+      <workItem from="1590149180544" duration="163000" />
+      <workItem from="1590237940983" duration="8505000" />
+      <workItem from="1590252412482" duration="83000" />
+      <workItem from="1590252522980" duration="350000" />
+      <workItem from="1590254365174" duration="241000" />
+      <workItem from="1590261136373" duration="5031000" />
+      <workItem from="1590386815776" duration="332000" />
+      <workItem from="1590393393218" duration="8545000" />
+      <workItem from="1590407942380" duration="6054000" />
+      <workItem from="1590423645294" duration="6714000" />
+      <workItem from="1590431190342" duration="237000" />
+      <workItem from="1590608134031" duration="151000" />
+      <workItem from="1590658391432" duration="6843000" />
+      <workItem from="1590669939495" duration="334000" />
+      <workItem from="1590684936329" duration="7726000" />
+      <workItem from="1590695931534" duration="4000000" />
+      <workItem from="1590758508913" duration="193000" />
+      <workItem from="1590830395093" duration="538000" />
+      <workItem from="1591041463946" duration="248000" />
+      <workItem from="1591041748498" duration="6471000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="297" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589789783593">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="297" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589789783593" />
+    <state x="572" y="186" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587362998933">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="572" y="186" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1587362998933" />
+    <state x="571" y="224" key="EnvironmentVariablesDialog" timestamp="1589789782422">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="571" y="224" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589789782422" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1589905910284">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589905910284" />
+    <state width="1493" height="163" key="GridCell.Tab.0.bottom" timestamp="1591048388727">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="163" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591048388727" />
+    <state width="1493" height="163" key="GridCell.Tab.0.center" timestamp="1591048388727">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="163" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591048388727" />
+    <state width="1493" height="163" key="GridCell.Tab.0.left" timestamp="1591048388727">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="163" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591048388727" />
+    <state width="1493" height="163" key="GridCell.Tab.0.right" timestamp="1591048388727">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="163" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591048388727" />
+    <state width="1493" height="163" key="GridCell.Tab.1.bottom" timestamp="1591048388727">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="163" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591048388727" />
+    <state width="1493" height="163" key="GridCell.Tab.1.center" timestamp="1591048388727">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="163" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591048388727" />
+    <state width="1493" height="163" key="GridCell.Tab.1.left" timestamp="1591048388727">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="163" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591048388727" />
+    <state width="1493" height="163" key="GridCell.Tab.1.right" timestamp="1591048388727">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="163" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591048388727" />
+    <state x="277" y="55" key="SettingsEditor" timestamp="1590261177896">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590261177896" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591041762119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591041762119" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590142351685">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590142351685" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Flask$flask.coverage" NAME="flask Coverage Results" MODIFIED="1587329522828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flask$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1589789366109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flask$start__2_.coverage" NAME="start (2) Coverage Results" MODIFIED="1589788341739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flask$test.coverage" NAME="test Coverage Results" MODIFIED="1589837549698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../real_time" />
+    <SUITE FILE_PATH="coverage/Kursovaya$detection.coverage" NAME="detection Coverage Results" MODIFIED="1590394208011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/python/Оп/Лица" />
+    <SUITE FILE_PATH="coverage/Flask$voice_assistant2.coverage" NAME="voice_assistant2 Coverage Results" MODIFIED="1589897695133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/static/bin/voice" />
+    <SUITE FILE_PATH="coverage/Flask$start.coverage" NAME="start Coverage Results" MODIFIED="1588515618883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Kursovaya$NeuroPy.coverage" NAME="NeuroPy Coverage Results" MODIFIED="1591042541809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flask$NeuroPy.coverage" NAME="NeuroPy Coverage Results" MODIFIED="1590139631282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Kursovaya$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1590395368335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/python/Text/send_email" />
+  </component>
+</project>
