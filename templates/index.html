@@ -54,11 +54,11 @@
 
 <div class="container-fluid">
     <div id="owl-slider1" class="owl-carousel owl-item">
+        <div style="background-image: url({{ url_for('static', filename='img/image/bg27.jpg') }})"></div>
         <div style="background-image: url({{ url_for('static', filename='img/image/bg1.jpg') }})"></div>
         <div style="background-image: url({{ url_for('static', filename='img/image/5.jpg') }})"></div>
         <div style="background-image: url({{ url_for('static', filename='img/image/bak2.jpg') }})"></div>
         <div style="background-image: url({{ url_for('static', filename='img/image/bak6.jpg') }})"></div>
-        <div style="background-image: url({{ url_for('static', filename='img/image/bak7.jpg') }})"></div>
         <div style="background-image: url({{ url_for('static', filename='img/image/bak8.jpg') }})"></div>
         <div style="background-image: url({{ url_for('static', filename='img/image/bak10.jpg') }})"></div>
     </div>
@@ -104,7 +104,7 @@
         <p>You can find a lot of different information about neuronets,
             about asembly part of neuronets and about creating neuronets.
             <br>Start building your first neural network</p>
-        <a href="#about" class="btn-ghost">Try now</a>
+        <a href="theoryfrombook" class="btn-ghost">Try now</a>
         <!--
                 <button onclick="toggler()">слушать</button>
                 <p>Вы сказали:</p>
@@ -116,7 +116,7 @@
 
 </div>
 <div onclick="toggler()" class="microfon__block"
-     style="position: fixed; right: 0; top: 600px; width: 40px; height: 40px; border-radius: 100px; background: rgba(255, 255, 255, 0.5); transition: 0.5s;z-index: 100; ">
+     style="position: fixed; right: 5px; bottom: 8px; width: 40px; height: 40px; border-radius: 100px; background: rgba(255, 255, 255, 0.5); transition: 0.5s;z-index: 100; ">
     <img src="../static/img/microfon.png" alt="" style="width: 30px;height: 30px; margin-top: 5px; margin-left: 5px;">
 </div>
 
@@ -269,20 +269,24 @@
         </div>
         <div class="row mb-4 wow bounceInDown">
             <div class="col-md-3">
-                <a data-fancybox="gallery" href="{{ url_for('static', filename='img/big_project1.jpg') }}"><img
-                        src="{{ url_for('static', filename='img/project1.jpg') }}" class="img-fluid mb-2"></a>
+                <a class="hovering" href="face_detected_real_time"
+                   style="display: block;position: relative;z-index: 999 !important;">
+
+                    <img src="{{ url_for('static', filename='img/project1.jpg') }}" class="img-fluid mb-2">
+
+                </a>
             </div>
             <div class="col-md-3">
-                <a data-fancybox="gallery" href="{{ url_for('static', filename='img/big_project2.jpg') }}"><img
-                        src="{{ url_for('static', filename='img/project2.jpg') }}" class="img-fluid mb-2"></a>
+                <a class="hovering" href="face_detected_for_cam">
+                    <img src="{{ url_for('static', filename='img/project2.jpg') }}" class="img-fluid mb-2"></a>
             </div>
             <div class="col-md-3">
-                <a data-fancybox="gallery" href="{{ url_for('static', filename='img/big_project3.jpg') }}"><img
-                        src="{{ url_for('static', filename='img/project3.jpg') }}" class="img-fluid mb-2"></a>
+                <a class="hovering" href="object_detected">
+                    <img src="{{ url_for('static', filename='img/project3.jpg') }}" class="img-fluid mb-2"></a>
             </div>
             <div class="col-md-3">
-                <a data-fancybox="gallery" href="{{ url_for('static', filename='img/big_project4.jpg') }}"><img
-                        src="{{ url_for('static', filename='img/project4.jpg') }}" class="img-fluid mb-2"></a>
+                <a class="hovering" href="first_neiro">
+                    <img src="{{ url_for('static', filename='img/project4.jpg') }}" class="img-fluid mb-2"></a>
             </div>
         </div>
         <div class="row mb-4 wow bounceInDown">
@@ -311,6 +315,34 @@
         </div>
     </div>
 </section>
+
+<section class="neuro">
+    <div class="middle" style="max-width: 1140px;margin: 0 auto;">
+        <div class="UP" style="margin-bottom: 5px;" loadind="lazy">
+            <a href="" class="hovering">
+                <img src="{{ url_for('static', filename='img/project5.jpg') }}" class=""
+                     style="width: 255px;height: 255px;">
+            </a>
+            <img src="{{ url_for('static', filename='img/project5.jpg') }}" class=""
+                 style="width: 255px;height: 255px;">
+            <img src="{{ url_for('static', filename='img/project5.jpg') }}" class=""
+                 style="width: 255px;height: 255px;">
+            <img src="{{ url_for('static', filename='img/project5.jpg') }}" class=""
+                 style="width: 255px;height: 255px;">
+        </div>
+        <div class="DOWN">
+            <img src="{{ url_for('static', filename='img/project5.jpg') }}" class=""
+                 style="width: 255px;height: 255px;">
+            <img src="{{ url_for('static', filename='img/project5.jpg') }}" class=""
+                 style="width: 255px;height: 255px;">
+            <img src="{{ url_for('static', filename='img/project5.jpg') }}" class=""
+                 style="width: 255px;height: 255px;">
+            <img src="{{ url_for('static', filename='img/project5.jpg') }}" class=""
+                 style="width: 255px;height: 255px;">
+        </div>
+    </div>
+</section>
+
 
 <!--Testimonial Setion-->
 <section id="abilities" class="py-5">

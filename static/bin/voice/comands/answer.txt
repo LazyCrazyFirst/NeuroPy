@@ -52,6 +52,9 @@ print('Преимущества')
 team_drag
 print('Команда')
 ;
+examples_drag
+print('Примеры')
+;
 abilities_drag
 print('Способности')
 ;

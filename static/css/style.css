@@ -1,3 +1,10 @@
+
+.hovering:hover{
+    -webkit-filter: brightness(10%);
+}
+
+
+
 .pudding{
     padding-top: 0;
 }

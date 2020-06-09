@@ -106,7 +106,7 @@ function talk() {
             var utterance = new SpeechSynthesisUtterance(text);
             synth.speak(utterance);
             //для перехода по транице
-            if ((text === "Дом") || (text === "Информация") || (text === "Преимущества") || (text === "Команда") || (text === "Способности") || (text === "Контакты")){
+            if ((text === "Дом") || (text === "Информация") || (text === "Преимущества") || (text === "Команда") || (text === "Примеры") || (text === "Способности") || (text === "Контакты")){
                 switch (text) {
                     case "Дом":
                         $('#home_drag').trigger('click');
@@ -119,6 +119,9 @@ function talk() {
                         break;
                     case "Команда":
                         $('#team_drag').trigger('click');
+                        break;
+                    case "Примеры":
+                        $('#examples_drag').trigger('click');
                         break;
                     case "Способности":
                         $('#abilities_drag').trigger('click');

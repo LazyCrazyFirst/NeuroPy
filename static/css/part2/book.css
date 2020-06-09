@@ -1,0 +1,241 @@
+body{
+  background: linear-gradient(black,rgb(14, 1, 39),rgb(34, 0, 73),black) no-repeat;
+}
+header{
+  transition: 2s;
+  height: 950px;
+  width: 100%;
+  background: url('../../img/image/bak7.jpg') no-repeat 50%;
+  background-size: 100%;
+  
+  text-align: center;
+}
+.header__title{
+  font-family: sans-serif;
+  color: #b3bbbb;
+  text-transform: uppercase;
+  text-shadow: yellow;
+  margin: 0;
+
+
+}
+main{
+  text-align: center;
+  transition: 2s;
+  height: 400px;
+}
+footer{
+  transition: 2s;
+ height: 300px;
+  width: 100%;
+  background: url('../../img/image/bak11.png') no-repeat 50%;
+  background-size: 100%;
+ 
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+.header__button{
+  color: #14a9ae;
+  border: 1px solid #14a9ae;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: block;
+  width: 100px;
+}
+.header__button:hover{
+  color: rgb(255, 255, 255);
+  background: #14a9ae;
+}
+.header__text{
+  color: white;
+  
+  margin: 100px auto;
+  font-size: 26px;
+}
+.header__text::after{
+  content: "";
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #14a9ae;
+  color: #14a9ae;
+  margin:30px auto;
+}
+.main__title{
+  text-align: center;
+  color: #b3bbbb;
+}
+.main__button{
+  color: #14a9ae;
+  border: 1px solid #14a9ae;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: block;
+  width: 100px;
+ 
+}
+.main__button:hover{
+  color: rgb(255, 255, 255);
+  background: #14a9ae;
+}
+.main__text{
+  color: white;
+  
+  margin: 100px auto;
+ 
+  display: block;
+}
+.main__text::after{
+  content: "";
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #14a9ae;
+  color: #14a9ae;
+  margin:30px auto;
+}
+
+/* arrow 1111 */
+.arrow-1 {
+  cursor: pointer;
+  position: relative;
+  width: 80px;
+  height: 50px;
+  margin: 20px;
+}
+.arrow-1 div {
+  position: relative;
+  top: 20px;
+  width: 90px;
+  height: 10px;
+  background-color: #337AB7;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+  left:0;
+  display: block;
+}
+.arrow-1 div::after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 10px;
+  top: -11px;
+  left: -8px;
+  background-color: #337AB7;
+  transform: rotate(-45deg);
+}
+.arrow-1 div::before {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 10px;
+  top: 11px;
+  left: -8px;
+  background-color: #337AB7;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+  transform: rotate(45deg);
+}
+.arrow-1:hover {
+  animation: arrow-1 1s linear infinite;
+}
+@keyframes arrow-1 {
+  0% {
+      left:0;
+  }
+  50% {
+      left:10px;
+  }
+  100% {
+      left:0;
+  }
+}
+/* arrrrow 22222 */
+
+.arrow-7 {
+  margin-left: 50%;
+}
+.arrow-7 span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid #337AB7;
+  border-right: 5px solid #337AB7;
+  transform: rotate(45deg);
+  margin: -16px;
+  animation: arrow-7 2s infinite;
+}
+.arrow-7 span:nth-child(2){
+  animation-delay: -0.2s;
+}
+.arrow-7 span:nth-child(3){
+  animation-delay: -0.4s;
+}
+@keyframes arrow-7 {
+  0%{
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px,-20px);
+  }
+  50%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0;
+      transform: rotate(45deg) translate(20px,20px);
+  }
+}
+.fot{
+  margin-top: 200px;
+}
+.header__caption{
+  color: white;
+  font-size: 26px;
+  font-family:sans-serif;
+}
+.header__description,.header_inscriprion{
+  color: #14a9ae;
+}
+
+/* errerfererer */
+.typer{
+  color: white;
+  margin-top: 40px;
+}
+body{
+  background: linear-gradient(rgb(1, 1, 8),rgb(61, 3, 37),black,rgb(3, 3, 92),black);
+}
+/* fdfscscds */
+.nuk::after{
+  content:'';
+  margin: 30px auto;
+  width: 35px;
+  height: 1px;
+  display: block;
+  color: #14a9ae;
+  background: #14a9ae;
+}
+
+.HHH1 {
+  
+  font-weight: normal;
+  cursor: pointer;
+  overflow: hidden;
+  text-shadow: 0 0 rgb(71, 105, 255),
+               0 0 rgb(60, 50, 205),
+               0 0 rgb(12, 163, 223);
+  color: transparent;
+  transition: all 1s;
+  }
+  .HHH1:hover {
+    opacity: 0;
+    text-shadow: -600px 0 rgb(74, 71, 255),
+                 600px 0 rgb(73, 50, 205),
+                 0 0 skyblue;
+  
+    }

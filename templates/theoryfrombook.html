@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"
+            charset="UTF-8"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Sorts+Mill+Goudy" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!--Owl Carousel CSS-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.default.min.css') }}">
+
+    <!--Fancy box CSS-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/jquery.fancybox.min.css') }}">
+
+    <!--Animate.css-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+
+    <!--Slick CSS-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='slick/slick.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='slick/slick-theme.css') }}">
+
+    <!--Main CSS-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <!--Media Query CSS-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/query.css') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/microfon/animate.css') }}">
+
+    <link rel="stylesheet" href="../static/css/part2/book.css">
+    <title>booook</title>
+</head>
+
+
+<body id="home" data-spy="scroll" data-target="#main-nav">
+
+<!--css Preloader-->
+<div id="preloader">
+    <div class="spinner"></div>
+</div>
+
+
+<div class="container-fluid">
+    <div id="owl-slider1" class="owl-carousel owl-item">
+
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg24.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/image/bak6.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/red3.png') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg18.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg19.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg21.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg25.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg26.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg28.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg29.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg30.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg31.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg32.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg33.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg34.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg35.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg36.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg37.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg38.png') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg39.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg40.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg41.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg42.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg43.png') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg44.jpg') }})"></div>
+        <div style="background-image: url({{ url_for('static', filename='img/some/bg45.jpg') }})"></div>
+
+
+    </div>
+
+    <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+
+            <img src="{{ url_for('static', filename='img/image/main_logo2.png') }}" height="50px" alt="NeuroPy Logo">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link" id="home_drag">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link" id="about_drag">About</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a href="#abilities" class="nav-link" id="abilities_drag">Аbilities</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="hero-text-area">
+        <h1>On this page you can find additional information about creating neural network </h1>
+        <p> Neural network (also artificial neural network, ANN) - a mathematical model,
+            as well as its software or hardware implementation, built on the principle of
+            organization and functioning of biological neural networks - networks of nerve cells of a living organism.
+        </p>
+
+        <!--
+                <button onclick="toggler()">слушать</button>
+                <p>Вы сказали:</p>
+                <p class="input"></p>
+                <p>Анечка:</p>
+                <p id="data" class="text">Спросите меня о чём-нибудь</p> -->
+    </div>
+
+
+</div>
+<div onclick="toggler()" class="microfon__block"
+     style="position: fixed; right: 5px; bottom: 8px; width: 40px; height: 40px; border-radius: 100px; background: rgba(255, 255, 255, 0.5); transition: 0.5s;z-index: 100; ">
+    <img src="../static/img/microfon.png" alt="" style="width: 30px;height: 30px; margin-top: 5px; margin-left: 5px;">
+</div>
+
+<div class="show" id="2">
+    <img onclick="toggler()" id="krestik" class="krest" src="../static/img/krest.png" style="width: 10px;height: 10px;"
+         alt="">
+    <p class="input prokrutka">
+    </p>
+    <p class="text prokrutka" id="data">
+        Анечка: Спросите меня о чём-нибудь
+    </p>
+
+
+</div>
+
+<!--About Section-->
+<section id="about" class="py-5" type="text">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6" style="margin: 0 auto;">
+
+                <p class="HHH1" style="color: aliceblue;text-align: justify;"> There are many varieties of ANNs. Some
+                    varieties have already proven themselves in various tasks, such as:
+                    classification and pattern recognition;
+                    decision making and management;
+                    clustering forecasting;
+                    data analysis;
+                    etc</p>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!--Expertise Section-->
+<section id="advantages" class="py-chka">
+    <div class="container">
+
+        <div class="row">
+            <div class="col text-white text-center">
+                <h2 class="mb-3 title_color nuk" style="color: aliceblue;">Some Story</h2>
+                <div class="testimonialSlider center">
+                    <div class="person1">
+                        <p class="lead mb-5" id="lox" style="color: gray;"> The first works in which the main results on
+                            the creation of neural networks were obtained were done by McCallock and Pitts.
+                            In 1943, they developed a computer model of a neural network based on mathematical
+                            algorithms and the theory of brain activity.
+                        </p>
+                        <img src="../static/img/some/121.png" style="width: 180px;height: 150px;" alt="" srcset="">
+
+
+                    </div>
+                    <div class="person2">
+                        <p class="lead mb-5" style="color: gray;"> They hypothesized that neurons could be
+                            simplistically viewed as devices that operate with binary numbers, and called this model
+                            “threshold logic”.
+                            In 1949, Donald Hebb created the first neural network algorithm that has been used for more
+                            than 30 years before Frank Rosenblatt invented the perceptron.
+                        </p>
+                        <img src="../static/img/some/122.png" style="width: 155px;height: 150px;" alt="" srcset="">
+
+                    </div>
+                    <div class="person3">
+                        <p class="lead mb-5" style="color: gray;"> A perceptron is a system that mimics all the
+                            processes inside the brain. It is the perceptron mechanism that is fundamental in creating
+                            neural networks.
+                            ANNs are finding more and more applications. Using trained neural networks, a large number
+                            of software products have been developed.
+                            the promise of artificial intelligence creates a huge number of jobs for qualified
+                            professionals.
+                        </p>
+                        <img src="../static/img/some/121.png" style="width: 180px;height: 150px;" alt="" srcset="">
+
+                    </div>
+                    <div class="person3">
+                        <p class="lead mb-5" style="color: gray;">
+                            It is neural networks that are engaged in as giants-corporations of Google, Microsoft,
+                            Amazon.
+                            Prospects for the development of the direction of the study of neural networks are rated
+                            very highly, but there is no specific source,
+                            web portal and this greatly complicates the development of this area.
+                        </p>
+                        <img src="../static/img/some/122.png" style="width: 155px;height: 150px;" alt="" srcset="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    </div>
+</section>
+
+
+<!--Our Works Section-->
+<section id="examples" class="py-5 pudding">
+    <div class="container">
+        <div class="flex" style="width: 100%;display: flex;justify-content: space-around;">
+
+            <div class="PART1" style="text-align: center;">
+
+
+                <p class="mb-3 otstup64 typer" style="text-align: justify;">
+                    Before you try to write neural network ,<br>
+                    you must to read theory,click to the link .
+                </p>
+
+
+                <a href="theorymat" class="btn-ghost text-uppercase">Load More</a>
+
+
+            </div>
+
+            <div class="PART1" style="text-align: center;">
+
+
+                <p class="mb-3 otstup64 typer">
+                    If you have read theory matherial,<br>
+                    you can read a practicla matherial
+                </p>
+
+
+                <a href="practicemat" class="btn-ghost text-uppercase">follow the link</a>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Testimonial Setion-->
+<section id="abilities" class="py-5">
+
+</section>
+
+
+<section>
+    <canvas id="q"></canvas>
+</section>
+
+
+<!--Main Footer-->
+<footer id="main-footer" class="text-white bg">
+    <div class="container otstup">
+        <div class="row mb-5">
+            <div class="col-md-4">
+                <img src="{{ url_for('static', filename='img/image/main_logo2.png') }}" style="height: 50px"
+                     alt="Tajam Logo" class="mb-4">
+                <p>Web resource <br>for creating neural network</p>
+            </div>
+            <div class="col-md-4 pt-3">
+                <h5 class="text-uppercase">Our Studio</h5>
+                <div class="media mb-3">
+                    <i class="fas fa-map-marker-alt mr-3 pt-1"></i>
+                    <div class="media-body">
+                        Belarus, Grodno, Gorky Street 86, 230000-230030, 231700
+                    </div>
+                </div>
+                <div class="media mb-3">
+                    <i class="fas fa-mobile-alt mr-3 pt-1"></i>
+                    <div class="media-body">
+                        +375 (33) 674-15-70<br>
+                        +375 (29) 546-58-56
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pt-3">
+                <h5 class="text-uppercase">Stay in Touch</h5>
+                <i class="fab fa-facebook-square fa-2x mr-4 mb-3"></i>
+                <i class="fab fa-twitter-square fa-2x mr-4 mb-3"></i>
+                <i class="fab fa-dribbble-square fa-2x mr-4 mb-3"></i>
+                <i class="fab fa-instagram fa-2x mr-4 mb-3"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <ul>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="col-md-6 mb-3">
+                <p class="copyright">&copy; 2020 NeuroPy. All rights reserved</p>
+            </div>
+        </div>
+    </div>
+
+
+</footer>
+
+
+<!--jQuery Full Version, Popper.js, Bootstrap.js-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+<!--Owl Carousel js-->
+<script src="{{ url_for('static', filename='js/owl.carousel.min.js') }}"></script>
+
+<!--Fancybox-->
+<script src="{{ url_for('static', filename='js/jquery.fancybox.min.js') }}"></script>
+
+<!--WOW.js-->
+<script src="{{ url_for('static', filename='js/wow.min.js') }}"></script>
+
+<!--Slick js-->
+<script src="{{ url_for('static', filename='slick/slick.min.js') }}"></script>
+
+<!--Main js-->
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+<script src="{{ url_for('static', filename='js/speak.js') }}"></script>
+
+<script>
+    var source = new EventSource('/');
+    source.addEventListener('message', function (e) {
+        // Пришли какие-то данные
+        console.log(e.data);
+        $("#data").text("Анечка: " + e.data);
+    }, false);
+</script>
+
+<script src="{{ url_for('static', filename='js/send_mail.js') }}"></script>
+
+<script src="../static/js/microfon.js"></script>
+
+<script>
+    var s = window.screen;  //Переменная для выясняющая размер вашего экрана 
+    var width = q.width = s.width;
+    var height = q.height = s.height;
+    var letters = Array(256).join(1).split('');
+    console.log('letters: ', letters);
+
+
+    var draw = function () {
+        q.getContext('2d').fillStyle = 'rgba(0,0,0,.05)'; //Тут цвет фона
+        q.getContext('2d').fillRect(0, 0, width, height);
+        q.getContext('2d').fillStyle = '#0018d0'; //Тут цвет букв
+        letters.map(function (y_pos, index) {
+            text = String.fromCharCode(65 + Math.random() * 33);
+            x_pos = index * 10;
+            q.getContext('2d').fillText(text, x_pos, y_pos);
+            letters[index] = (y_pos > 758 + Math.random() * 1e4) ? 0 : y_pos + 10;
+        });
+    };
+    setInterval(draw, 33);
+</script>
+</body>
+</html>

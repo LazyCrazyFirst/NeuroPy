@@ -1,7 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7286a750-be0b-4ee7-9e94-d141ada9f866" name="Default Changelist" comment="" />
+    <list default="true" id="7286a750-be0b-4ee7-9e94-d141ada9f866" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/.idea/flask-video-streaming-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/.idea/FacialRecognitionProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.1.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/dataset/User.2.9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/face_detected_real_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/haarcascade_frontalface_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/names.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/FacialRecognitionProject/trainer/trainer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/camera_opencv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/camera_opencv2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/templates/daun.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bin/flask_video_streaming_master/templates/lox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/face_detected_real_time.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/face_detected_real_time_dobavl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/face_detected_real_time_raspozn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroPy.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroPy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bin/voice/comands/answer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/bin/voice/comands/answer.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bin/voice/comands/opts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/bin/voice/comands/opts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/image/bak3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/image/bak5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/image/bak7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/image/bak9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/image/bg5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/speak.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/speak.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,10 +79,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1ajRZY1yzYW2zN8W5dSewhIYwPi" />
   <component name="ProjectViewState">
@@ -25,6 +97,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -35,7 +108,7 @@
       <recent name="C:\Users\sanek\Desktop\Flask\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.NeuroPy">
+  <component name="RunManager" selected="Python.flask">
     <configuration name="NeuroPy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Flask" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,6 +155,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="flask" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLASK_APP" value="NeuroPy" />
+        <env name="FLASK_DEBUG" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="flask" />
+      <option name="PARAMETERS" value="run" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="send_email" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Flask" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,28 +193,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="E:/python/Text/send_email/send_email.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Flask" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../real_time" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../real_time/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,19 +224,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.NeuroPy" />
       <item itemvalue="Python.voice_assistant2" />
       <item itemvalue="Python.detection" />
       <item itemvalue="Python.send_email" />
+      <item itemvalue="Python.flask" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.flask" />
         <item itemvalue="Python.NeuroPy" />
         <item itemvalue="Python.send_email" />
         <item itemvalue="Python.detection" />
         <item itemvalue="Python.voice_assistant2" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -219,6 +294,14 @@
       <workItem from="1590830395093" duration="538000" />
       <workItem from="1591041463946" duration="248000" />
       <workItem from="1591041748498" duration="6471000" />
+      <workItem from="1591200720083" duration="5159000" />
+      <workItem from="1591617791468" duration="84000" />
+      <workItem from="1591618181437" duration="324000" />
+      <workItem from="1591618629299" duration="10645000" />
+      <workItem from="1591648031505" duration="4788000" />
+      <workItem from="1591718645361" duration="946000" />
+      <workItem from="1591719613358" duration="3022000" />
+      <workItem from="1591726568751" duration="673000" />
     </task>
     <servers />
   </component>
@@ -226,77 +309,89 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="297" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589789783593">
+    <state x="297" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591618756834">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="297" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589789783593" />
+    <state x="297" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1591618756834" />
     <state x="572" y="186" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587362998933">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="572" y="186" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1587362998933" />
-    <state x="571" y="224" key="EnvironmentVariablesDialog" timestamp="1589789782422">
+    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1591205893894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="571" y="224" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589789782422" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1589905910284">
+    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591205893894" />
+    <state x="571" y="224" key="EnvironmentVariablesDialog" timestamp="1591618754918">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589905910284" />
-    <state width="1493" height="163" key="GridCell.Tab.0.bottom" timestamp="1591048388727">
+    <state x="571" y="224" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1591618754918" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1591201505590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="163" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591048388727" />
-    <state width="1493" height="163" key="GridCell.Tab.0.center" timestamp="1591048388727">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591201505590" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1591727241408">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="163" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591048388727" />
-    <state width="1493" height="163" key="GridCell.Tab.0.left" timestamp="1591048388727">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591727241408" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1591727241408">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="163" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591048388727" />
-    <state width="1493" height="163" key="GridCell.Tab.0.right" timestamp="1591048388727">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591727241408" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1591727241408">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="163" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591048388727" />
-    <state width="1493" height="163" key="GridCell.Tab.1.bottom" timestamp="1591048388727">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591727241408" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1591727241408">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="163" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591048388727" />
-    <state width="1493" height="163" key="GridCell.Tab.1.center" timestamp="1591048388727">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591727241408" />
+    <state width="1493" height="241" key="GridCell.Tab.1.bottom" timestamp="1591722647843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="163" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591048388727" />
-    <state width="1493" height="163" key="GridCell.Tab.1.left" timestamp="1591048388727">
+    <state width="1493" height="241" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591722647843" />
+    <state width="1493" height="241" key="GridCell.Tab.1.center" timestamp="1591722647843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="163" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591048388727" />
-    <state width="1493" height="163" key="GridCell.Tab.1.right" timestamp="1591048388727">
+    <state width="1493" height="241" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591722647843" />
+    <state width="1493" height="241" key="GridCell.Tab.1.left" timestamp="1591722647843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="163" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591048388727" />
+    <state width="1493" height="241" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591722647843" />
+    <state width="1493" height="241" key="GridCell.Tab.1.right" timestamp="1591722647843">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="241" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591722647843" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1590261177896">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590261177896" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591041762119">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591719613804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591041762119" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591719613804" />
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591205904226">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1591205904226" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590142351685">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590142351685" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Flask$test.coverage" NAME="test Coverage Results" MODIFIED="1589837549698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../real_time" />
+    <SUITE FILE_PATH="coverage/Kursovaya_04_06$NeuroPy__1_.coverage" NAME="flask Coverage Results" MODIFIED="1591629588093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Kursovaya_04_07$flask.coverage" NAME="flask Coverage Results" MODIFIED="1591726902726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flask$NeuroPy.coverage" NAME="NeuroPy Coverage Results" MODIFIED="1590139631282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Kursovaya$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1590395368335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/python/Text/send_email" />
     <SUITE FILE_PATH="coverage/Flask$flask.coverage" NAME="flask Coverage Results" MODIFIED="1587329522828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Flask$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1589789366109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Flask$start__2_.coverage" NAME="start (2) Coverage Results" MODIFIED="1589788341739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Flask$test.coverage" NAME="test Coverage Results" MODIFIED="1589837549698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../real_time" />
     <SUITE FILE_PATH="coverage/Kursovaya$detection.coverage" NAME="detection Coverage Results" MODIFIED="1590394208011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/python/Оп/Лица" />
     <SUITE FILE_PATH="coverage/Flask$voice_assistant2.coverage" NAME="voice_assistant2 Coverage Results" MODIFIED="1589897695133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/static/bin/voice" />
     <SUITE FILE_PATH="coverage/Flask$start.coverage" NAME="start Coverage Results" MODIFIED="1588515618883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Kursovaya$NeuroPy.coverage" NAME="NeuroPy Coverage Results" MODIFIED="1591042541809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Flask$NeuroPy.coverage" NAME="NeuroPy Coverage Results" MODIFIED="1590139631282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Kursovaya$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1590395368335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/python/Text/send_email" />
+    <SUITE FILE_PATH="coverage/Kursovaya$NeuroPy.coverage" NAME="NeuroPy Coverage Results" MODIFIED="1591205318935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Kursovaya_04_06$NeuroPy.coverage" NAME="NeuroPy Coverage Results" MODIFIED="1591618698918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Kursovaya_04_06$flask.coverage" NAME="flask Coverage Results" MODIFIED="1591648043108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
